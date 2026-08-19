@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/9%2B-Years_shipping_software-1C1917?style=flat-square&labelColor=FDC700" alt="9+ years">
 <img src="https://img.shields.io/badge/%242M%2B-Monthly_Meta_ad_spend_supported-1C1917?style=flat-square&labelColor=FDC700" alt="$2M+ monthly ad spend">
 <img src="https://img.shields.io/badge/30%2B-Agent_tools_%26_workflows_shipped-1C1917?style=flat-square&labelColor=FDC700" alt="30+ agent tools">
-<img src="https://img.shields.io/badge/8-Documented_case_studies-1C1917?style=flat-square&labelColor=FDC700" alt="8 case studies">
+<img src="https://img.shields.io/badge/7-Documented_case_studies-1C1917?style=flat-square&labelColor=FDC700" alt="7 case studies">
 
 </div>
 
@@ -56,7 +56,7 @@ I'm based in Berlin, and I also run **[SolutionPlus.io](https://solutionplus.io)
 
 # Case studies
 
-Four systems I've taken from idea to production. Each links to a full write-up with architecture, AI internals, and outcomes.
+Three systems I've taken from idea to production. Each links to a full write-up with architecture, AI internals, and outcomes.
 
 <br>
 
@@ -101,47 +101,7 @@ Four systems I've taken from idea to production. Each links to a full write-up w
 
 <br>
 
-### <img src="https://img.shields.io/badge/02-FDC700?style=flat-square" alt="02"> Get Magic — enterprise AI co-pilot
-
-<img src="https://img.shields.io/badge/Active-1C1917?style=flat-square" alt="Active"> <img src="https://img.shields.io/badge/Enterprise_AI_Extension-64748B?style=flat-square" alt="Enterprise AI Extension"> <img src="https://img.shields.io/badge/RAG_·_IndexedDB_·_MCP-E7E5E4?style=flat-square" alt="RAG · IndexedDB · MCP">
-
-> The AI co-pilot that scales Magic's 24/7 executive-assistant service — embedded assistant surfaces with RAG, memory, and real tool actions.
-
-**The problem** — Executive assistants live in dozens of tools: Gmail, Calendar, CRMs, client docs. Tab-switching to a separate AI chat breaks flow. Magic needed AI to live *where the work happens*, with full context and the ability to take action.
-
-**What I built**
-- The **Magic Assistant browser extension** on Plasmo — a true co-pilot that is context-aware, memory-aware, and able to act through tool calls.
-- An **open-floor team-wide assistant** any assistant can ask, grounded in playbooks and historical tickets.
-- **In-browser RAG on IndexedDB** so sensitive context never leaves the user's device when it doesn't have to.
-- **MCP-style tool servers** wiring agents to CRM, calendar, email, and internal Magic APIs, with scoped access and full audit trails.
-- **Prompt-safety processor layers** (detection + scrubbing) to reduce prompt-injection risk in tool-enabled assistants.
-
-**Outcomes**
-- Reduced research and drafting time per assistant ticket.
-- Standardised reuse of playbooks across the assistant team.
-- Improved reliability of multi-tool assistant runs through scoped gateway patterns and feature-flagged rollout.
-
-`Plasmo` `IndexedDB` `Vector Search` `MCP` `AWS Lambda` `Cloudflare Workers` `React` `TypeScript` `OpenAI` `Anthropic`
-
-<details>
-<summary><b>Architecture & AI internals</b></summary>
-
-<br>
-
-- **Extension** — Plasmo, React, TypeScript, IndexedDB.
-- **Tooling** — MCP-style servers with CRM, calendar, and email adapters.
-- **Infra** — AWS Lambda, Cloudflare Workers, DynamoDB, S3 — edge-deployed for low latency.
-- **Retrieval** — hybrid retrieval over playbooks, tickets, and client preferences.
-- **Privacy-first design** — data minimisation, PII scrubbing, and least-privilege tool calls.
-- **Enterprise surfaces** — dynamic sidepanel tooling with prompt-aware tool routing, internal feature-flag gates, and competitive-intelligence views.
-
-</details>
-
-**[Read the case study →](https://www.heyitsaif.com/projects/get-magic)**  ·  **[Live site ↗](https://getmagic.com/)**
-
-<br>
-
-### <img src="https://img.shields.io/badge/03-FDC700?style=flat-square" alt="03"> Bewerbung.AI — Germany's AI application platform
+### <img src="https://img.shields.io/badge/02-FDC700?style=flat-square" alt="02"> Bewerbung.AI — Germany's AI application platform
 
 <img src="https://img.shields.io/badge/Production-1C1917?style=flat-square" alt="Production"> <img src="https://img.shields.io/badge/AI_SaaS-64748B?style=flat-square" alt="AI SaaS"> <img src="https://img.shields.io/badge/German_hiring_market-E7E5E4?style=flat-square" alt="German hiring market">
 
@@ -181,7 +141,7 @@ Four systems I've taken from idea to production. Each links to a full write-up w
 
 <br>
 
-### <img src="https://img.shields.io/badge/04-FDC700?style=flat-square" alt="04"> QuickBilling — solo-built billing SaaS
+### <img src="https://img.shields.io/badge/03-FDC700?style=flat-square" alt="03"> QuickBilling — solo-built billing SaaS
 
 <img src="https://img.shields.io/badge/Production-1C1917?style=flat-square" alt="Production"> <img src="https://img.shields.io/badge/SaaS_·_Billing_%26_expenses-64748B?style=flat-square" alt="SaaS · Billing & expenses"> <img src="https://img.shields.io/badge/Solo_build-E7E5E4?style=flat-square" alt="Solo build">
 
