@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Saif Qureshi">
+  <title>Saif Qureshi</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#57606a" fill-opacity="0.16"/>
+    </pattern>
+    <clipPath id="card"><rect x="0.5" y="0.5" width="1199" height="239" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="240" fill="#f6f8fa"/>
+    <rect width="1200" height="240" fill="url(#dots)"/>
+    <g transform="translate(1000,120)" fill="none" stroke="#57606a" stroke-linecap="round">
+      <circle r="150" stroke-opacity="0.16" stroke-width="1.5" stroke-dasharray="3 8"/>
+      <circle r="96" stroke-opacity="0.20" stroke-width="1.5"/>
+      <g stroke-opacity="0.34" stroke-width="2">
+        <line x1="0" y1="0" x2="0" y2="-96"/>
+        <line x1="0" y1="0" x2="83" y2="-48"/>
+        <line x1="0" y1="0" x2="83" y2="48"/>
+        <line x1="0" y1="0" x2="0" y2="96"/>
+        <line x1="0" y1="0" x2="-83" y2="48"/>
+        <line x1="0" y1="0" x2="-83" y2="-48"/>
+      </g>
+      <g stroke="none" fill="#57606a" fill-opacity="0.5">
+        <circle cx="0" cy="-96" r="6"/>
+        <circle cx="83" cy="-48" r="6"/>
+        <circle cx="83" cy="48" r="6"/>
+        <circle cx="0" cy="96" r="6"/>
+        <circle cx="-83" cy="48" r="6"/>
+        <circle cx="-83" cy="-48" r="6"/>
+      </g>
+      <circle r="17" stroke="none" fill="#fdc700"/>
+    </g>
+    <rect x="64" y="64" width="56" height="8" rx="4" fill="#fdc700"/>
+    <text x="62" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="700" letter-spacing="-2" fill="#1f2328">Saif Qureshi</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="20" fill="none" stroke="#d0d7de"/>
+</svg>
