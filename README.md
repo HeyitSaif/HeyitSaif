@@ -1,61 +1,74 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
-  <img alt="Saif Qureshi" src="assets/profile-banner-light.svg" width="100%">
-</picture>
+<a href="https://heyitsaif.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Saif Qureshi. Technical partner for founders. Production AI agents, from idea to production." src="assets/header-light.svg" width="100%">
+  </picture>
+</a>
 
-**AI product engineer and technical partner for founders. Berlin.**
+### I help founders without a CTO turn an idea into a product that runs in production.
 
-[Website](https://heyitsaif.com) · [Projects](https://heyitsaif.com/projects) · [For founders](https://heyitsaif.com/for-founders) · [Blog](https://heyitsaif.com/blog)
+Founding AI product engineer at **Parker AI** · Founder of **[SolutionPlus](https://solutionplus.io)** · Builder of **[QuickBilling](https://quickbilling.io)**
+
+[![Book a free 30-min call](https://img.shields.io/badge/Book_a_free_30--min_call-fdc700?style=for-the-badge&logo=calendly&logoColor=1c1917&labelColor=fdc700&color=fdc700)](https://calendly.com/heyitsaif) [![heyitsaif.com](https://img.shields.io/badge/heyitsaif.com-1c1917?style=for-the-badge&logo=googlechrome&logoColor=fdc700)](https://heyitsaif.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-1c1917?style=for-the-badge)](https://linkedin.com/in/HeyitSaif) [![Email](https://img.shields.io/badge/Email-1c1917?style=for-the-badge&logo=gmail&logoColor=fdc700)](mailto:isaifqureshi@gmail.com)
 
 </div>
 
-I build AI agents that run in production, and the products around them. I'm the founding AI product engineer at Parker AI and the founder of SolutionPlus, and I've shipped 30+ agent tools and workflows. I also work with non-technical founders as their technical partner, from idea to production.
+## Three ways to work with me
 
-## Now
+| | **Founders** | **Companies and teams** | **Freelancers and small businesses** |
+|---|---|---|---|
+| **You need** | A senior technical partner, without hiring a full-time CTO | Senior AI engineering for an agent, RAG or SaaS build | Quotes and invoices without a heavy accounting tool |
+| **You get** | A scope from one free call, then slices of 2 to 12 weeks. Each slice ends with something running that you can click, test and show. | Fixed-scope builds and extra team capacity through my studio, SolutionPlus | QuickBilling, the invoicing SaaS I built and run myself |
+| **Start here** | [For founders](https://heyitsaif.com/for-founders) | [solutionplus.io](https://solutionplus.io) | [quickbilling.io](https://quickbilling.io) |
 
-- Parker AI: building agents on Mastra and Temporal that call typed MCP-style tools for ads APIs and creative review.
-- Finer: an open-source local search engine built on EmbeddingGemma 2. Coming soon.
+I take one or two builds at a time, so your product gets my days, not my leftover hours.
 
-## Selected work
+## Shipped, and still running
 
-- [Parker AI](https://heyitsaif.com/projects/parker-ai) is a multi-agent platform that turns TikTok, Instagram and Meta signal into creative briefs for DTC brands. I've been its founding engineer since June 2023. It supports brands spending up to $2M a month on Meta ads, and idea turnaround went from days to minutes.
-- [Bewerbung.AI](https://heyitsaif.com/projects/bewerbung-ai) is an AI résumé and cover-letter platform for the German hiring market. As a consultant in 2023 and 2024 I built the résumé editor and the cover-letter and job-fit agents. Time to a finished application dropped from hours to minutes.
-- [QuickBilling](https://heyitsaif.com/projects/quickbilling) is an invoicing and expense SaaS that I built alone, from zero to production. It is live, with docs and a public OpenAPI.
-- At Real Simple Labs I was lead engineer from 2022 to 2024 on [getSimplePay](https://heyitsaif.com/projects/getsimplepay), a US bank-pay (ACH) product. I built the Shopify app and checkout extensions that let merchants offer it at checkout without custom theme work.
-- [Clippy](https://github.com/HeyitSaif/Clippy) is my open-source clipboard manager for macOS, Windows and Linux, written in Electron. History, search and pins stay on your machine in a local SQLite database. ![GitHub stars](https://img.shields.io/github/stars/HeyitSaif/Clippy?style=flat-square&label=stars)
+| Product | What I built | Result |
+|---|---|---|
+| **[Parker AI](https://heyitsaif.com/projects/parker-ai)** | Founding engineer since June 2023. A multi-agent platform on Mastra and Temporal that turns TikTok, Instagram and Meta signal into creative briefs for DTC brands. | Brands spending up to **$2M a month** on Meta ads. Idea turnaround went from **days to minutes**. |
+| **[Bewerbung.AI](https://heyitsaif.com/projects/bewerbung-ai)** | The résumé editor plus the cover-letter and job-fit agents for a German hiring-market SaaS (2023 to 2024). | Time to a finished application dropped from **hours to minutes**. |
+| **[QuickBilling](https://heyitsaif.com/projects/quickbilling)** | An invoicing and expense SaaS, built alone from zero to production: quotes, invoices, share links with tracking, expenses, workspaces. | Live, with docs and a public **OpenAPI**. |
+| **[getSimplePay](https://heyitsaif.com/projects/getsimplepay)** | Lead engineer (2022 to 2024): the Shopify app and checkout extensions for a US bank-pay (ACH) product. | Merchants offer bank pay at checkout with **no custom theme work**. |
 
-More at [heyitsaif.com/projects](https://heyitsaif.com/projects).
+The full case studies, with architecture and stack, are at [heyitsaif.com/projects](https://heyitsaif.com/projects). The founder story behind Parker AI: [from an idea to a platform](https://heyitsaif.com/stories/parker-ai).
 
-## Stack
+## Open source
 
-- Agents and models: Mastra, Temporal, MCP tools, Langfuse, OpenAI, Anthropic, Gemini
-- Retrieval and data: Qdrant, Supabase Postgres, Redis, MongoDB
-- Product: TypeScript, React, Next.js, Node.js, React Native
-- Infrastructure: GCP, AWS, Cloudflare Workers, Vercel, Docker
+- **[MySearch](https://github.com/HeyitSaif/mysearch)**: a private search engine for your own folders that runs entirely on a Mac. Meaning and keyword search over documents, scans, e-mail, audio and video, English questions that find German documents, and MCP so AI agents can search too. Built on EmbeddingGemma 2 and MLX. [How I built it](https://heyitsaif.com/blog/embeddinggemma-2-local-search).
+- **[Clippy](https://github.com/HeyitSaif/Clippy)** ![stars](https://img.shields.io/github/stars/HeyitSaif/Clippy?style=flat-square&label=%E2%98%85&color=fdc700&labelColor=1c1917): a clipboard manager for macOS, Windows and Linux. History, search and pins stay on your machine in a local SQLite database.
+
+## How a build runs
+
+1. **A free 30-minute call.** You walk me through the idea. I tell you what I would build first and what I would cut.
+2. **A scoped milestone.** 2 to 12 weeks, with clear deliverables, a shared definition of done and the evals that prove it.
+3. **Built for production.** Typed and traced tool calls, evals on every model change, cost and latency dashboards, human checkpoints on risky actions.
+4. **A handoff your team can run.** Runbooks, dashboards and docs, so your engineers can operate and extend what we shipped.
 
 ## Writing
 
-New on [heyitsaif.com/blog](https://heyitsaif.com/blog):
+Notes from building production AI, at [heyitsaif.com/blog](https://heyitsaif.com/blog):
 
-- [EmbeddingGemma 2 local search on a Mac](https://heyitsaif.com/blog/embeddinggemma-2-local-search): the architecture behind Finer, with the numbers.
-- [Hybrid search with SQLite FTS5 and Python](https://heyitsaif.com/blog/hybrid-search-sqlite-fts5-python): a step-by-step build guide.
+- [EmbeddingGemma 2 local search: building Finer on a local embeddings API](https://heyitsaif.com/blog/embeddinggemma-2-local-search)
+- [Build local hybrid search with SQLite FTS5, EmbeddingGemma 2 and Python](https://heyitsaif.com/blog/hybrid-search-sqlite-fts5-python)
+- [Will AI replace motion designers? Motion graphics are code now](https://heyitsaif.com/blog/will-ai-replace-motion-designers)
 - [Claude Motion and Higgsfield Katana, explained](https://heyitsaif.com/blog/claude-motion-higgsfield-katana)
-- [Will AI replace motion designers?](https://heyitsaif.com/blog/will-ai-replace-motion-designers)
 
-My production AI thesis starts with one line: "Demos are cheap. Production is the product." The other five are on the [home page](https://heyitsaif.com/#thesis).
+> **Demos are cheap. Production is the product.** The other five lines of my production-AI thesis are on [the home page](https://heyitsaif.com/#thesis).
 
-## Work with me
+## Stack
 
-I'm the technical partner for non-technical founders. A free 30-minute call turns your idea into a scope, and we build it in 2 to 12 week slices. Each slice comes with evals and a handoff your team can run. I take one or two engagements at a time.
-
-Companies and enterprise teams can hire me as a fractional AI engineer through [SolutionPlus](https://solutionplus.io).
-
-[How it works for founders](https://heyitsaif.com/for-founders) · [Contact page](https://heyitsaif.com/contact)
+**Agents and models** Mastra · Temporal · MCP tools · Langfuse · OpenAI · Anthropic · Gemini<br>
+**Retrieval and data** Qdrant · Supabase Postgres · Redis · MongoDB · SQLite FTS5<br>
+**Product** TypeScript · React · Next.js · Node.js · React Native<br>
+**Infrastructure** GCP · AWS · Cloudflare Workers · Vercel · Docker
 
 ## Contact
 
-[isaifqureshi@gmail.com](mailto:isaifqureshi@gmail.com) · [Book a 30-minute call](https://calendly.com/heyitsaif) · [LinkedIn](https://linkedin.com/in/HeyitSaif)
+Berlin, working remotely worldwide. The EU time zone overlaps Europe, the UK and the US East Coast.<br>
+[Book a free 30-minute call](https://calendly.com/heyitsaif) · [isaifqureshi@gmail.com](mailto:isaifqureshi@gmail.com) · [LinkedIn](https://linkedin.com/in/HeyitSaif)
 
 I usually reply within one business day.
